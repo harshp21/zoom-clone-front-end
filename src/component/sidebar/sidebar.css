@@ -1,0 +1,65 @@
+.sidebar {
+  width: 100%;
+  height: 100%;
+}
+.sidebar__participants-container,
+.sidebar__chat-container {
+  height: 45%;
+  width: 100%;
+  /* border-bottom: 1px solid #edeaea; */
+}
+
+.sidebar__participants-container {
+  overflow: auto;
+}
+
+.sidebar__chat-container {
+  height: 50%;
+}
+
+.sidebar__participants-container_title,
+.sidebar__chat-container_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #666;
+  height: 10%;
+}
+.sidebar__participants-container_title {
+  padding: 30px 0px 10px;
+}
+
+.sidebar__invite {
+  border-bottom: 1px solid #edeaea;
+  height: 5%;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar__invite_btn {
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar__invite_btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.sidebar__chat-container_content {
+  height: 90%;
+}
+
+.react-multi-email {
+  margin-top: 15px;
+}
+
+.react-confirm-alert-body {
+  width: 550px;
+}
