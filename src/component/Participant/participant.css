@@ -1,0 +1,27 @@
+.participant {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.participant__profile,
+.participant__action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.participant__profile_image {
+  margin-right: 15px;
+}
+
+.participant__action_audio > .MuiSvgIcon-root,
+.participant__action_video > .MuiSvgIcon-root {
+  cursor: pointer;
+  color: #666;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
