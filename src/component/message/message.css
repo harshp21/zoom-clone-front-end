@@ -1,0 +1,36 @@
+.chat__body_messages {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  width: fit-content;
+  margin: 10px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.message-title {
+  display: flex;
+  align-items: center;
+}
+
+.message-title__name {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  white-space: nowrap;
+}
+.message-title__timestamp {
+  font-size: 10px;
+  margin-left: 25px;
+  white-space: nowrap;
+}
+
+.message-content {
+  padding-top: 5px;
+}
+
+.chat__body_messages.message-recieved {
+  align-self: flex-end;
+  /* background-color: #dcf8c6; */
+}
