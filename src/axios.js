@@ -1,6 +1,6 @@
 import Axios from 'axios';
 
-const apiUrl = 'http://localhost:5000';
+const apiUrl = 'https://video-conference-zoom-clone.herokuapp.com/';
 function axiosInstance() {
     return Axios.create({
         baseURL: apiUrl,
