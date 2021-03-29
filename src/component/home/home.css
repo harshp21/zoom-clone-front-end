@@ -1,0 +1,49 @@
+.home__container_header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.home-header_description {
+  padding: 80px 50px 80px 75px;
+}
+.description_title {
+  font-size: 3rem;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+.description_sub-title {
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+.meeting-btn {
+  padding: 12px 40px;
+  background-color: #f26d21;
+  color: #fff;
+  border: 1px solid #f26d21;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.meeting-btn:hover {
+  background-color: #da621e;
+}
+
+.description_btn-container {
+  display: flex;
+}
+
+.home-header_image {
+  position: relative;
+}
+
+.home-header_image img {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+  box-shadow: -10px 0 40px rgb(0 0 0 / 20%);
+}
