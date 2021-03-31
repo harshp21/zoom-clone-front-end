@@ -79,9 +79,10 @@ function Meeting() {
 
     const initializePeerConnection = () => {
         return new Peer(userContext.userState.user._id, {
-            host: 'https://zoom-clone-app.netlify.app',
-            port: 9000,
-            path: '/peerjs',
+            host: 'zoom-peer-server.herokuapp.com',
+            secure: true,
+            key: 'peerjs',
+            port: 443,
         });
     }
 
